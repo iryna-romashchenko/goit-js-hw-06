@@ -4,6 +4,7 @@ const ListEl = document.querySelectorAll('.item');
 const ListElTitle = document.querySelectorAll('h2');
 
 console.log(`Number of categories: ${ListEl.length}`);
+
 console.log(`Category: ${ListElTitle[0].textContent}`);
 console.log(`Elements: ${ListEl[0].querySelectorAll('li').length}`);
 
