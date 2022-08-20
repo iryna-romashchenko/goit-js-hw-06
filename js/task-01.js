@@ -1,4 +1,3 @@
-
 //1//
 // const list = document.querySelector('#categories');
 // const listEl = document.querySelectorAll('.item');
@@ -16,17 +15,17 @@
 // console.log(`Elements: ${listEl[2].querySelectorAll('li').length}`);
 
 //2//
-let categories = '';
+let categories = "";
 let elementsSum = 0;
-const list = document.querySelector('#categories').children.length;
-const listEl = document.querySelectorAll('li.item');
+const list = document.querySelector("#categories").children.length;
+const listEl = document.querySelectorAll("li.item");
 console.log(`Number of categories: ${list}`);
 
-listEl.forEach(element => {
-    categories = element.firstElementChild.textContent;
-    elementsSum = element.querySelectorAll('li').length;
-    const category = `Category: ${categories}`;
-    const elements = `Elements: ${elementsSum}`;
-    console.log(category);
-    console.log(elements);
+listEl.forEach((element) => {
+  categories = element.firstElementChild.textContent;
+  elementsSum = element.querySelectorAll("li").length;
+  const category = `Category: ${categories}`;
+  const elements = `Elements: ${elementsSum}`;
+  console.log(category);
+  console.log(elements);
 });

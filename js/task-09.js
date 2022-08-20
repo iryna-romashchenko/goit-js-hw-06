@@ -1,4 +1,3 @@
-
 const btn = document.querySelector(".change-color");
 const span = document.querySelector(".color");
 const body = document.querySelector("body");
